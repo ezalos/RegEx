@@ -1,0 +1,41 @@
+aXBjb25maWc=
+ZENvZGU=
+aXBjbji
+aQBwAGMAbwBuAGYAaQBnAA==
+Valid
+TG91aXM=
+TG91aXNz
+TG91aXNzcw==
+TG91aXNzc3M=
+MA==
+
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+
+loll
+
+
+ 
+SGkh
+
+6*4 = 8*3
+
+
+il reste exactement 3 octets à coder (24 bits), alors on obtient directement 4 caractères sans traitement complémentaire ;
+
+il reste seulement 2 octets (16 bits) à coder, alors on ajoute à droite 2 bits à zéros pour former 3 caractères de l'alphabet (3×6 = 16+2 = 18 bits) suivis d'un quatrième caractère « = » en complément ;
+
+il reste un seul octet (8 bits) à coder, alors on ajoute à droite 4 bits à zéros pour former 2 caractères de l'alphabet (2×6 = 8+4 = 12 bits) suivis de deux caractères « = » en complément.

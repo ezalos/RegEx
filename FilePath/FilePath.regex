@@ -1,0 +1,42 @@
+(?#\
+Doc: This regex will capture any argument matching the Windows/UNIX path structure, for a NTFS filesystem 
+
+Variables:
+	Path : 				will contain the whole path
+	Folders : 			will contain each folder in path
+	hidden_folder :		will contain one '.' for each hidden folder in path
+	hidden_file :		set to '.' if file is hidden
+	File :				is the name of file
+	extension_path :	is the file extension
+
+)^\s*["'`]?\s*(?#\
+)(?<path>(?#\
+	)(?:(?#\
+		 )(?<path_variable_path>%[^%\s]+%\\?)?(?#\
+		)|(?<path_UNC>\\\\[^\\]+\\)?(?#\
+		 )(?<path_Driver>[A-Za-z]:[\\]?)?(?#\
+		)|(?<path_UpDir>\.\.\\)+(?#\
+		)|(?<path_CurDir>\.\/)+(?#\
+		)|(?<path_RelDir>[\/\\])+(?#\
+	))?(?#\
+    )(?<path_Folders>(?#\
+       )(?<path_hidden_folder>\.)?(?#\
+       )[^\/\\:*?"<>|\n]{1,255}(?#\
+       )[\\\/](?#\
+    ))*(?#\
+    )(?<path_File>(?#\
+       )(?<path_hidden_file>\.?)(?#\
+       )(?:(?#\
+          )[^\/\\:*?"<>|.\n]{1,255}(?#\
+       )|(?#\
+          )[^\/\\:*?"<>|\n]{1,255}(?#\
+          )(?<path_extension_path>\.[^\/\\:*?"<>|.\n]{1,255})(?#\
+       ))(?#\
+    ))(?#\
+))(?#\
+)\s*["'`]?\s*$(?#\
+)(?#\
+Related doc:
+	https://docs.microsoft.com/fr-fr/dotnet/standard/io/file-path-formats
+	https://en.wikipedia.org/wiki/Filename
+)

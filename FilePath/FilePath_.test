@@ -1,0 +1,36 @@
+2018\January.xlsx
+C:\Documents\Newsletters\Summer2018.pdf
+\Program Files\Custom Utilities\StringFinder.exe 	
+     ..\Publications\TravelBrochure.pdf 
+	C:\Projects\apilibrary\apilibrary.sln 
+C:Projects\apilibrary\apilibrary.sln	
+\\system07\C$\	  
+\\Server2\Share\Test\Foo.txt	 
+\\.\C:\.Test\Foo.txt 
+\\?\C:\Test\Foo.txt 
+\\.\Volume{b75e2c83-0000-0000-0000-602f00000000}\Test\Foo.txt	
+\\?\Volume{b75e2c83-0000-0000-0000-602f00000000}\Test\Foo.txt
+
+
+\\test\test$\.TEST.xls
+\\server\share\folder\myfile.txt
+\\server\share\myfile.txt
+\\123.123.123.123\share\folder\myfile.txt
+c:\folder\myfile.txt
+c:\folder\myfileWithoutExtension
+
+
+\\smb\paths--
+F:/fake/windows/paths
+C:\traditional\paths
+\file.ext
+./execute_me
+file:///some/path/
+file
+file.should_not_match
+
+Je suis louis
+https://www.foo.com/bar
+http://goo.gl/1 http://goo.gl/2
+foo (http://goo.gl/1) http://goo.gl/(2)
+http://foo.com/. http://foo.com/! http://foo.com/,

@@ -1,0 +1,28 @@
+ arg0\ \ \\ "arg1\"\""  	 "arg2\"\\""arg3 \"" 'arg4"arg4"' arg5 arg6 
+
+ space_bef_and_aft_even_arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 
+ 	space_bef_and_aft_odd__arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 
+space_aft_even__________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9  
+space_aft_odd___________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 
+ space_bef_even_________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9
+ space_bef_odd__________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
+nospace_even____________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9
+nospace_odd_____________arg0 arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8
+
+  multispace______________arg0   arg1  arg2 arg3       arg4 
+
+
+ pbm0 pbm1 pbm2 
+"pbm0 pbm0" pbm1 
+"pbm0 pbm0" pbm1 
+
+ C:\ProgramData\Anaconda3\python.exe C:\ProgramData\Anaconda3\cwp.py C:\ProgramData\Anaconda3 C:\ProgramData\Anaconda3\python.exe C:\ProgramData\Anaconda3\Scripts\jupyter-notebook-script.py "%USERPROFILE%/" 
+
+ (?(?=\2)(?(?=($|^))true|false)|false) . 
+
+
+
+
+(?:(?(?!\3|\\).|(?=\\)..))*
+
+((?!\s|$)(?(?!\\).|..))*)

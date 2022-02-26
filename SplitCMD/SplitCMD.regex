@@ -1,0 +1,9 @@
+(((?# FIRST TYPE OF ARGS\
+)(?#start arg)("|'|`)(?#\
+)(?#arg)(?<arg>(?# whole repeat pattern)((?!\3)(?(?!\\).|..))*)(?#\
+)(?#end arg)\3(?#\
+))|((?# SECOND TYPE OF ARGS\
+)(?#start arg)(^|\s+)(?#\
+)(?#arg)(?<arg_>(?#whole repeat pattern)((?!\s|$)(?(?!\\).|..))+)(?#\
+)))(?#\
+skipping trailing whitespaces)(\s|^|$)*(?=(\s|^|$|"|'|`))

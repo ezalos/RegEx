@@ -1,0 +1,42 @@
+(?#\
+Doc: This regex will split the commandline in arguments
+
+Details:
+	The arg variable will contain all the different arguments
+	argument delimiters are in two categories :
+		whitespaces delimiters :	\t \n \r \v ' '
+				',' :	is a delimiter in the windows cmd 
+						but it's not one in the powershell
+		quotation delimiters :		\' \` \"
+
+Variables:
+	arg : 						will contain each argument
+Next variables can be adjusted by adding or deleting delimiters
+	quote_delimiters :			quoted argument delimiters
+	whitespace_delimiters : 	whitespace argument delimiters
+
+)(?#\
+)(?<arg>(?#\
+	)(?<arg_quote>(?#\
+		)(?<quote_delimiters>"|'|`)(?#\
+		)(?:(?#\
+			)(?!\3)(?#\
+			)(?<escape>(?(?!\\)[\x00-\xFF]|[\x00-\xFF]{2}))(?#\
+		))*(?#\
+		)\3(?#\
+	))|(?<arg_whitespace>(?#\
+		)(?:(?#\
+			)(?!(?#\
+				)(?<whitespace_delimiters>\s|$)|(?#\
+				)(?P>quote_delimiters)(?#\
+			))(?#\
+			)(?P>escape)(?#\
+		))+(?#\
+	))(?#\
+))(?#\
+)(?#\
+)(?#\
+Related doc:
+	https://docs.microsoft.com/fr-fr/cpp/c-language/parsing-c-command-line-arguments?view=vs-2019
+	http://daviddeley.com/autohotkey/parameters/parameters.htm
+)

